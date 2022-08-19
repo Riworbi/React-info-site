@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #23252C;
+  margin:0%;
+}
+
+.InfoComponent{
+  display: flex;
+  padding: 0vh 40%;
+  flex-direction: column;
+}
+
+.ProfilePicture{
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.InfoFullName{
+  margin-top: 5px;
+
+  color: white;
+  font-family: Inter;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.InfoJob{
+  text-align: center;
+  margin-top: 20px;
+  font-family: Inter;
+  color: #F3BF99;
+  font-weight: 400;
+}
+
+.InfoButtons{
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+.ButtonEmail{
+  border-radius:6px;
+  width: 115px;
+  height: 34px;
+  font-family: Inter;
+}
+.ButtonGithub{
+  border-radius:6px;
+  width: 115px;
+  height: 34px;
+  margin-left: 20px;
+  background: #e08020;
+  border-color: #e08020;
+  color: white;
+  font-family: Inter;
+}
+
+.InfoWebsite{
+  text-align: center;
+  margin-top: 0;
+  font-family: Inter;
+  color: #F5F5F5;
+  font-weight: 400;
+}
+
+.AboutComponent{
+  margin: 0% 25%;
+}
+.AboutTitle{
+  margin: 0% 0%;
+  text-align: left;
+  color: white;
+  font-family: Inter;
+
+}
+.AboutText{
+  font-family: Inter;
+  color: white;
+  font-weight: 5;
+}
+
+.FooterComponent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161619;
+  top: 0;
+}
+
+.fbIcon,.ghIcon{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  color: white;
+}
+
+.fbIcon{
+  padding-left: 25%;
+}
+
+
+.ghIcon{
+  padding-right: 25%;
+}
